@@ -1,0 +1,32 @@
+davinci.name=Da Vinci 32U
+davinci.vid.1=0x1774
+davinci.pid.1=0x8032
+davinci.upload.tool=avrdude
+davinci.upload.protocol=avr109
+davinci.upload.maximum_size=28672
+davinci.upload.maximum_data_size=2560
+davinci.upload.speed=57600
+davinci.upload.disable_flushing=true
+davinci.upload.use_1200bps_touch=true
+davinci.upload.wait_for_upload_port=true
+
+davinci.bootloader.tool=avrdude
+davinci.bootloader.file=da-vinci-32u-master.hex
+davinci.bootloader.low_fuses=0xff
+davinci.bootloader.high_fuses=0xd8
+davinci.bootloader.extended_fuses=0xcb
+davinci.bootloader.unlock_bits=0x3F
+davinci.bootloader.lock_bits=0x2F
+
+davinci.build.mcu=atmega32u4
+davinci.build.f_cpu=16000000L
+
+davinci.build.vid=0x1774
+davinci.build.pid=0x8032
+davinci.build.usb_product="Da Vinchi 32U"
+davinci.build.usb_manufacturer="Strawberry Linux Co.,Ltd."
+
+davinci.build.board=AVR_davinci
+davinci.build.core=arduino
+davinci.build.variant=leonardo
+davinci.build.extra_flags={build.usb_flags}
