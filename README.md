@@ -9,7 +9,7 @@
 
 # 利用方法
 
-	$ git clone 
+	$ git clone https://github.com/mamemomonga/DaVinci32U-Arduino.git
 	$ cd DaVinci32U-Arduino
 	$ make
 	
