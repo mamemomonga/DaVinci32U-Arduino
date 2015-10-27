@@ -22,3 +22,8 @@
 D13はオンボードの赤色LEDになっている。
 [ファイル] → [スケッチの例] → [01.Basics] → [Blink] のサンプルを書き込んでチカチカするか確認できる。
 
+# ピン・レイアウト
+
+![davinci2.png](davinci2.png)
+出典: [TETRASTYLE-dev-BLOG:Leonardo っぽいの](http://dev.tetrastyle.net/2012/02/leonardo.html)
+
